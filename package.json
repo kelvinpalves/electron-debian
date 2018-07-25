@@ -1,31 +1,27 @@
 {
   "name": "electron-debian",
   "version": "1.0.0",
-  "description": "Exemplo de app com Electron",
+  "description": "Electron Debian",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "install": "electron-rebuild"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kelvinpalves/electron-debian.git"
   },
-  "keywords": [
-    "Electron",
-    "Debian",
-    "SerialPort",
-    "App",
-    "Cross",
-    "Plataform"
-  ],
-  "author": "Kelvin Pereira Alves <kelvinpalves@gmail.com>",
+  "author": "Kelvin Pereira Alves",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kelvinpalves/electron-debian/issues"
   },
   "homepage": "https://github.com/kelvinpalves/electron-debian#readme",
   "devDependencies": {
-    "electron": "^2.0.5"
+    "electron": "^2.0.5",
+    "electron-rebuild": "^1.8.1"
+  },
+  "dependencies": {
+    "serialport": "^6.2.2"
   }
 }

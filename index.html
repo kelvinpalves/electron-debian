@@ -5,5 +5,18 @@
 </head>
 <body>
     Teste
+
+    <script type="text/javascript">
+        
+        var serialport = require('serialport');
+
+
+        serialport.list(function (err, port) {
+            console.log(port);
+        });
+
+
+    </script>
+
 </body>
 </html>
